@@ -1,0 +1,6 @@
+minimum scaled J: 0.104861 average scaled J: 0.885591
+B_V B_E B_F B_H C: 642 1662 1456 434 4878
+#sheets removed: 103
+Removed Component Ratio: 0.907126
+hausdorff:0.00966199
+timing: 770934ms
