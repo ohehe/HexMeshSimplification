@@ -6,24 +6,35 @@ Singularity Structure Simplification of Hexahedral Mesh via Weighted Ranking
 
 **Introduction**:
 ----------------------
-In this paper, we propose an improved singularity structure simplification method for hexahedral (hex) meshes using a weighted ranking approach. In previous work, the selection of to-be-collapsed base complex sheets/chords is only based on their thickness, which will introduce a few closed-loops and cause an early termination of simplification and a slow convergence rate. In this paper, a new weighted ranking function is proposed by combining the valence prediction function of local singularity structure, shape quality metric of elements and the width of base complex sheets/chords together. Adaptive refinement and local optimization are also introduced to improve the uniformity and aspect ratio of mesh elements. Compared to thickness ranking methods, our weighted ranking approach can yield a simpler singularity structure with fewer base-complex components, while achieving comparable Hausdorff distance ratio and better mesh qual-
-ity. Comparisons on a hex-mesh dataset are performed to demonstrate the effectiveness of the proposed method.
+In this paper, we propose an improved singularity structure simplification method for hexahedral (hex) meshes using a 
+
+weighted ranking approach. In previous work, the selection of to-be-collapsed base complex sheets/chords is only based on 
+
+their thickness, which will introduce a few closed-loops and cause an early termination of simplification and a slow 
+
+convergence rate. In this paper, a new weighted ranking function is proposed by combining the valence prediction function 
+
+of local singularity structure, shape quality metric of elements and the width of base complex sheets/chords together. 
+
+Adaptive refinement and local optimization are also introduced to improve the uniformity and aspect ratio of mesh 
+
+elements. Compared to thickness ranking methods, our weighted ranking approach can yield a simpler singularity structure 
+
+with fewer base-complex components, while achieving comparable Hausdorff distance ratio and better mesh quality. 
+
+Comparisons on a hex-mesh dataset are performed to demonstrate the effectiveness of the proposed method.
 
 **Content**:
 ----------------------
-The simpilification results of our method with different cofficients of k_sv and k_sd are 
+The simpilification results of our method with different cofficients of k_sv and k_sd are provided in '0.3ksv_0.7ksd_
 
-provided in '0.3ksv_0.7ksd_0.2ksq' and '0.4ksv_0.6ksd_0.2ksq' folder respectively, the 
+0.2ksq' and '0.4ksv_0.6ksd_0.2ksq' folder respectively, the simplification results of ranking by valence term and width 
 
-simplification results of ranking by valence term and width term are also provided in 
+term are also provided in 'valence_term' and 'width_term' folder respectively. Moreover, the mesh file (.vtk), histogram 
 
-'valence_term' and 'width_term' folder respectively. Moreover, the mesh file (.vtk), 
+of scaled Jacobian (.png) and statistics (.txt) are included in each folder. The statistics of results includes minimum 
 
-histogram of scaled Jacobian (.png) and statistics (.txt) are included in each folder. 
-
-The statistics of results includes minimum scaled Jacobian, average scaled Jacobian, 
-
-Hausdorff distance ratio, the number of base-complex components, and total time.
+scaled Jacobian, average scaled Jacobian, Hausdorff distance ratio, the number of base-complex components, and total time.
 
 **Usage**:
 ----------------------
