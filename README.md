@@ -24,7 +24,7 @@ with fewer base-complex components, while achieving comparable Hausdorff distanc
 
 Comparisons on a hex-mesh dataset are performed to demonstrate the effectiveness of the proposed method.
 
-**Content**:
+**Contents**:
 ----------------------
 The simpilification results of our method with different cofficients of k_sv and k_sd are provided in '0.3ksv_0.7ksd_
 
