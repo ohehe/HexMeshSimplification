@@ -4,7 +4,7 @@ This repository contains the experiment results and executable file of the paper
 
 Singularity Structure Simplification of Hexahedral Mesh via Weighted Ranking
 
-![img](./example.png)
+![img](https://github.com/ohehe/HexMeshSimplification/blob/master/example.png)
 
 **Introduction**:
 ----------------------
